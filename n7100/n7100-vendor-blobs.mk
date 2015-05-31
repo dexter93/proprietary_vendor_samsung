@@ -33,6 +33,19 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/secapp/FFFFFFFF000000000000000000000001.drbin:system/vendor/secapp/FFFFFFFF000000000000000000000001.drbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/00060308060501020000000000000000.tlbin:system/vendor/secapp/mcRegistry/00060308060501020000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/07060000000000000000000000000000.tlbin:system/vendor/secapp/mcRegistry/07060000000000000000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffff000000000000000000000005.tlbin:system/vendor/secapp/mcRegistry/ffffffff000000000000000000000005.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffff000000000000000000000010.tlbin:system/vendor/secapp/mcRegistry/ffffffff000000000000000000000010.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/02010000080300030000000000000000.tlbin:system/vendor/secapp/mcRegistry/02010000080300030000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffff000000000000000000000003.tlbin:system/vendor/secapp/mcRegistry/ffffffff000000000000000000000003.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/vendor/secapp/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/vendor/secapp/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/secapp/mcRegistry/07010000000000000000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffff000000000000000000000004.tlbin:system/vendor/secapp/mcRegistry/ffffffff000000000000000000000004.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/vendor/secapp/mcRegistry/ffffffff00000000000000000000000b.tlbin \
+    $(LOCAL_PATH)/proprietary/system/vendor/secapp/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/secapp/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_e-pen.kl:system/usr/keylayout/sec_e-pen.kl \
